@@ -1,5 +1,4 @@
-File: .github/workflows/audit.yml
-name: Audit
+name: TestProj
 
 on:
   push:
@@ -8,7 +7,7 @@ on:
     branches: [main]
 
 jobs:
-  audit:
+  test-project:
     runs-on: ubuntu-20.04
     steps:
     - uses: actions/checkout@v2
